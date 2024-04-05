@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #101920;
+}
+.logo{
+    color: peachpuff;
+    border: 1px solid;
+    border-top: none;
+    border-right: none;
+border-bottom-left-radius: 10px;
+transition: .5s;
+}
+.logo span{
+    font-family: monospace;
+margin-left: 40px;
+color: #fff;
+
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 40px;
+
+}
+.topnav{
+    display: flex;
+}
+.topnav a{
+    margin: 10px 15px;
+    color: white;
+    font-size: 1.2em;
+    transition: .5s;
+}
+.topnav a:hover{
+    border-bottom: 2px solid peachpuff;
+    transition: .5s;
+}
+.hero{
+    padding: 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero h3{
+    color: #fff;
+    border-left: 4px solid peachpuff;
+    transition: .4s;
+}
+.hero h1{
+    color: #fff;
+    padding: 10px;
+    font-size: 4em;
+    transition: .5s;
+
+}
+.hero p{
+    color: #fff;
+    padding: 10px;
+    transition: .5s;
+
+}
+.hero button{
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+     font-size: 1em;
+
+}
+.hero button:hover{
+    color: #fff;
+   background-color: transparent;
+   border: 1px solid;
+   box-shadow: 1px 1px 20px peachpuff;
+}
+.hero button:last-child:hover{
+   color: #fff;
+   background-color: transparent;
+   border: 1px solid;
+   box-shadow: 1px 1px 20px peachpuff;
+   transition: .5s;
+}
+
+.img img{
+    width: 500px;
+    height: 410px;
+    transition: .5s linear inherit;
+}
+@media screen and (max-width: 680px) {
+
+    .hero{
+    padding: 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav a{
+    font-size: 1em;
+    
+}
+.img img{
+    width: 300px;
+    height: 300px;
+    transition: .5s linear inherit;
+}
+
+
+}
+.iphone:hover{
+    transition: ease-out .5s;
+}
+@media screen and (max-width: 680px) {
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container h1{
+        display: block;
+        font-size: 2em;
+    }
+    .container-right h1{
+        font-size: 20px;
+    }
+  
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+}
+#container{
+    background: url(sale/Screenshot\ 2024-04-05\ at\ 11-08-52\ Watch.png);
+   
+}
+.container{
+    background-color: #7473735a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    transition: all .5s ease-in-out;
+}
+.container h3{
+   color: #ffffff;
+   font-weight: 800;
+   margin: 10px;
+   transition: all .5s ease-in-out;
+
+}
+.container h1{
+    color: #fffefe;
+    transition: all .5s ease-in-out;
+
+}
+.container img{
+}
+.container-right{
+    background-color: #7473735a;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    transition: all .5s ease-in-out;
+
+}
+.container-right h3{
+    color: #ffffff;
+    font-weight: 800;
+    margin: 10px;
+    transition: all .5s ease-in-out;
+
+ }
+ .container-right h1{
+     color: #ffffff;
+     transition: all .5s ease-in-out;
+
+ }
+ /* about */
+ .about h1{
+    text-align: center;
+    color: #fff;
+    padding: 10px 80px;
+    font-size: 4em;
+    transition: .5s;
+ }
+ .about p{
+    color: #fff;
+    transition: all .5s ease-in;
+ }
+ .about button{
+    justify-content: center;
+    padding: 10px;
+    background-color: peachpuff;
+    border: none;
+    border-radius: 2px;
+    align-items: center;
+ 
+}
+.feature{
+    padding: 40px 80px 0 80px;
+    display: flex;
+}
+.text h1{
+    color: #fff;
+   font-size: 3em;
+    text-align: center;
+    transition: .5s;
+}
+.text p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px;
+    transition: .5s;
+}
+
+@media screen and (max-width: 680px) {
+    .feature{
+ display: flex;       
+ flex-wrap: wrap;
+    }
+    
+}
+.brand{
+    margin-top: 50px;
+    background-color: #7473735a;
+    width: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: .5s;
+    color: #fff;
+}
+.brand .cen{
+    display: flex;
+}
+.brand .cen button{
+    margin: 10px;
+    border: none;
+    background-color: darkblue;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+}
+
+.brand .cen h2{
+    font-size: 17px;
+    color: #8f8989;
+   margin: 20px 20px;
+}
+.brand img{
+    width: 200px;
+
+    
+}
+@media screen and (max-width: 680px) {
+    .all{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custu h2{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.brand1{
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px #fff;
+    width: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    transition: .5s;
+    color: #fff;
+   
+
+}
+.brand1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    
+}
+.brand1 .img1{
+    display: flex;
+    padding: 10px;
+}
+.img1 h2{
+    font-size: 1em;
+    color: #fefcfc;
+    
+}
+#form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 80px;
+}
+#form h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    padding: 10px;
+}
+#form p{
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+form{
+    display: flex;
+}
+.contan{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+   padding: 10px;
+   height: 150px;
+   color: #fff;
+}
+.contan .load{
+    border: 3px solid;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 60px;
+    color: aqua;
+    border-top: 3px solid transparent;
+    animation: anime .5s linear infinite;
+}
+@keyframes anime{
+    form{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+form .id{
+    color: #fff;
+    font-size: 2em;
+    margin: 20px;
+}
+.contact{
+    background-color: #2725255a;
+    border-radius: 30px;
+    width: 300px;
+   padding: 30px;
+    box-shadow: 1px 1px 5px white;
+    text-align: center;
+}
+.contact label{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 20px 10px;
+}
+.contact input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid #7473735a;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    font-size: 1.1em;
+    background-color: #7473735a;
+}
+.contact textarea{
+    width: 300px;
+    border: 1px solid #7473735a;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    font-size: 1.3em;
+    background-color: #7473735a;
+}
+#send{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background: darkblue;
+}
+.map{
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+@media screen and  (max-width: 680px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    form{
+        display: block;
+    
+    }
+    .map{
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: -100px;
+        height: 250px;
+    }
+
+    
+}
+footer{
+padding: 50px 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #000000;
+color: 
+#fff;
+}
+.logo1{
+    color: peachpuff;
+    border: 1px solid;
+    border-top: none;
+    border-right: none;
+    border-bottom-left-radius: 10px;
+    transition: .5s;
+    border-bottom: none;
+}
+.logo1 span{
+    font-family: monospace;
+margin-left: 40px;
+color: #fff;
+
+}
+.logo2 h2{
+    margin: 20px;
+    flex-wrap: wrap;
+    color: #cac3c3;
+}
+.logo2 p{
+    margin: 20px;
+    color: #8f8989;
+}
+.quick-link h1{
+    font-size: 1.4em;
+    margin: 20px;
+    color: #cac3c3;
+}
+.quick-link a{
+    display: block;
+    margin: 20px;
+    color: #8f8989;
+}
+.help h1{
+    font-size: 1.4em;
+    margin: 20px;
+    color: #cac3c3;
+}
+.help a{
+    display: block;
+    color: #8f8989;
+    margin: 20px;
+}
+.bx{
+    font-size: 3em;
+}
